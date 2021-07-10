@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Covid-19 Vaccine</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_lock">Lock</string>
+    <string name="menu_description">Description</string>
+    <string name="noti_title">Title</string>
+    <string name="noti_message">Message</string>
+    <string name="noti_priority">Priority</string>
+    <string name="noti_time">Time (seconds)</string>
+    <string name="button_title">Create Notification</string>
+    <string name="default_channel_name">Default Notifications</string>
+    <string name="low_channel_name">Not Important Notifications</string>
+    <string name="high_channel_name">Very Important Notifications</string>
+    <string name="channel_description">A channel for displaying notification</string>
+</resources>

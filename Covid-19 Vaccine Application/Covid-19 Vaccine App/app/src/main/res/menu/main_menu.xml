@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/menu_save"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_description"
+        android:icon="@drawable/baseline_description_black_24dp"
+        android:title="@string/menu_description"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/menu_share"
+        app:showAsAction="always" />
+
+    <group
+        android:id="@+id/menu_saved_itmes"
+        app:showAsAction="never">
+        <item android:id="@+id/sign_out"
+            android:title="Sign Out" />
+    </group>
+
+
+
+</menu>
